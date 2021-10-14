@@ -1,0 +1,62 @@
+// Font
+$primary-font: "Inter", sans-serif;
+
+$font-extraLight: 200;
+$font-regular: 400;
+$font-medium: 500;
+$font-bold: 700;
+$font-extraBold: 800;
+
+$font-sm: 0.8rem;
+$font-xs: 0.64rem;
+$font-default: 1rem;
+$font-lg: 1.56rem;
+$font-xl: 1.95rem;
+$font-xxl: 2.4rem;
+$font-xxxl: 3rem;
+
+// Colors
+$color-major: #1d3557;
+$color-minor: #457b9d;
+$color-tertiary: #a8dadc;
+
+$color-danger: #e63946;
+$color-success: #63c132;
+$color-warning: #fdca40;
+
+$color-dark: #1d1e18;
+$color-gray: #dbd7d2;
+$color-light: #f1faee;
+$color-white: #ffffff;
+
+// Color Variations
+$color-major-400: lighten($color-major, 10%);
+$color-major-600: darken($color-major, 5%);
+$color-major-700: darken($color-major, 10%);
+
+$color-minor-200: lighten($color-minor, 30%);
+$color-minor-300: lighten($color-minor, 20%);
+$color-minor-400: lighten($color-minor, 10%);
+$color-minor-600: darken($color-minor, 10%);
+
+$color-success-600: darken($color-success, 20%);
+
+$color-gray-400: lighten($color-gray, 6%);
+$color-gray-600: darken($color-gray, 30%);
+$color-gray-700: darken($color-gray, 40%);
+$color-gray-800: darken($color-gray, 50%);
+
+// Grid
+$sidebar-width: 250px;
+$sidebar-form-width: 30%;
+$navbar-height: 48px;
+$footer-height: 16px;
+
+// Z-index
+$side-drawer: 300;
+$backdrop: 200;
+$raised-button: 100;
+$raised-div: 50;
+
+// border radius
+$round: 900px;

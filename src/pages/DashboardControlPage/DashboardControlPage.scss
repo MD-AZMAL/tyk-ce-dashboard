@@ -1,0 +1,9 @@
+@import "../../scss/variables";
+
+.dashboard-request-controls {
+  grid-area: dashboard-request;
+  border-right: 1px solid $color-gray;
+  height: 100%;
+  overflow-y: auto;
+  position: relative;
+}

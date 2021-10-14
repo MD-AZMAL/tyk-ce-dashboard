@@ -1,0 +1,54 @@
+@import "../../scss/variables";
+
+.dashboard-sidebar {
+  &-header {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid $color-gray;
+    background-color: $color-major;
+    color: $color-white;
+
+    & h2 {
+      margin-bottom: 0.5rem;
+    }
+
+    & h3 {
+      margin-top: 0;
+    }
+  }
+
+  &-container {
+    padding: 0.75rem;
+  }
+
+  &-content {
+    margin-bottom: 0.75rem;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    // background-color: $color-minor;
+    color: $color-dark;
+    border-radius: 0.5rem;
+    font-weight: $font-bold;
+    border: 1px solid $color-gray-400;
+    transition: 0.3s all ease;
+
+    & p:nth-of-type(1) {
+      margin-bottom: 0.5rem;
+    }
+
+    &--light {
+        font-weight: $font-extraLight;
+      font-size: $font-sm;
+    }
+
+    &:hover {
+      background-color: $color-minor-600;
+      color: $color-white;
+    }
+
+    &.active {
+      background-color: $color-minor-600;
+      color: $color-white;
+    }
+  }
+}
